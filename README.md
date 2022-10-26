@@ -1,6 +1,6 @@
 ## About
 
-**❗ This repository runs with the Postal [version 2.1.1](https://github.com/postalserver/postal/releases). It should be fine for version 2.1.x maybe 2.x**
+**❗ This repository runs with the Postal [version 2.1.2](https://github.com/postalserver/postal/releases). It should be fine for version 2.1.x maybe 2.x**
 
 The basic installation of the Postal delivery platform [requires](https://docs.postalserver.io/install/prerequisites) that the database server MariaDB and the message broker RabbitMQ are up and ready. Deploying this repository via Docker Compose will bring these prerequisites.
 
