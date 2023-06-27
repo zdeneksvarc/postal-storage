@@ -10,7 +10,7 @@ Docker and Docker Compose
 
 ## Installation procedure
 
-1. Destination directory will be `/opt/postal-storage`. Move to the subdirectory `cd /opt` and fetch the install repository `sudo git clone https://github.com/zdeneksvarc/postal-storage.git`. Finaly move to the destination directory `cd /opt/postal-tls`
+1. Destination directory will be `/opt/postal-storage`. Move to the subdirectory `cd /opt` and fetch the install repository `sudo git clone https://github.com/zdeneksvarc/postal-storage.git`. Finaly move to the destination directory `cd /opt/postal-storage`
 2. Set the `MYSQL_ROOT_PASSWORD` and `RABBITMQ_DEFAULT_PASS` in the file `.env` in working directory. To generate passwords, you can use for example [pwgen](https://linux.die.net/man/1/pwgen), e.g. `pwgen 30 2 -y`
 3. Start the postal-storage Docker Compose project via `docker compose up -d` and you're done 🎉
 
